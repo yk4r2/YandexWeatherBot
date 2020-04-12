@@ -7,9 +7,9 @@ from datetime import datetime, timedelta
 # from telebot import apihelper
 # apihelper.proxy = {'https': 'socks5://telegram.vpn99.net:55655'}
 
-owm = pyowm.OWM('TOKEN_OWM', language = 'ru')
+owm = pyowm.OWM('5d952a0a731f297a28ac1be1c9a2c6d7', language = 'ru')
 
-bot = telebot.TeleBot('TOKEN_TELE')
+bot = telebot.TeleBot('1195784483:AAH3fHJym1RDxTsFoUrWS2NK3C7i7rPqhr4')
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
