@@ -1,1 +1,1 @@
-Telegram Weather bot for Y Yandex
+Telegram Weather bot for Yandex
